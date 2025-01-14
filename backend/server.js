@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "*", // Allow all origins
+  origin: "*", // Allow all origins for now
   methods: ["POST", "GET"],
   credentials: true
 }));
