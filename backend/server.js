@@ -10,7 +10,7 @@ const app = express();
 app.use(cors(
   {
     origin: ["https://e-commerce-cart-2-z6pc.vercel.app/"],
-    methods: ["GET", "POST"],
+    methods: ["POST", "GET"],
     credentials: true
   }
 ));
