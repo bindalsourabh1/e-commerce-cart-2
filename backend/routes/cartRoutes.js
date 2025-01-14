@@ -3,6 +3,12 @@ const Cart = require('../models/Cart');
 const Product = require('../models/Product');
 const router = express.Router();
 
+//basic api
+router.get('/', (req, res) => {
+    res.send('API is running');
+});
+
+
 // Adding product to cart
 router.post('/cart/add', async (req, res) => {
     const { productId, quantity } = req.body;
