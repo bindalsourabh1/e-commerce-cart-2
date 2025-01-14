@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build
+/dist
+/build
+/.next
+/.nuxt
+/.parcel-cache
+
+# Logs
+*.log
+
+# .env files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# React Native
+.expo/
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# MongoDB data
+/data/
+
+# Package lock files (if you use yarn, uncomment below)
+# yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Frontend build directories
+/public/
+
+# MacOS Finder settings
+.FBCIndex
